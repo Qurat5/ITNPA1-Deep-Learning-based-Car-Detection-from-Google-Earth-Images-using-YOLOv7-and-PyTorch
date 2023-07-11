@@ -18,6 +18,27 @@ The combination of PyTorch and YOLOv7 proved to be highly effective, providing f
 
 To run the code in this repository, please follow these steps:
 
+Step 1 – Clone YOLOv7 Repo
+Clone the yolov7 repository from GitHub by running the following command in the terminal.
+
+git clone https://github.com/Qurat5/ITNPA1-Deep-Learning-based-Car-Detection-from-Google-Earth-Images-using-YOLOv7-and-PyTorch.git
+
+Step 2 – Install requirements
+
+!pip install -r yolov7/requirements.txt
+!pip install -r yolov7/requirements_gpu.txt
+
+Step 3 – Train yolov7 on the custom dataset
+
+!python train.py --workers 1 --device 0 --batch-size 16 --epochs 100 --img 640 640 --hyp data/hyp.scratch.custom.yaml --name yolov7-custom --weights yolov7.pt
+
+Step 4 – Train yolov7 on the custom dataset
+
+!python detect.py --weights best.pt --conf 0.5 --img-size 640 --source img.jpg --view-img --no-trace
+
+
+
+
 1. Install the required dependencies mentioned in the `requirements.txt` file.
 2. Execute the main script or Jupyter Notebook to train and evaluate the YOLOv7 model.
 3. Modify the configuration files as per your requirements.
