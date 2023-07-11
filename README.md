@@ -38,9 +38,3 @@ Step 4 – Train yolov7 on the custom dataset
 
 
 
-
-1. Install the required dependencies mentioned in the `requirements.txt` file.
-2. Execute the main script or Jupyter Notebook to train and evaluate the YOLOv7 model.
-3. Modify the configuration files as per your requirements.
-4. Feel free to experiment with different parameters and techniques to further enhance the model's performance.
-
