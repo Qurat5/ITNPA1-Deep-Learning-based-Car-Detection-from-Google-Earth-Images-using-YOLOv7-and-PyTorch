@@ -12,7 +12,7 @@ The YOLOv7 model, combined with the capabilities of PyTorch, was employed for ca
 
 ## Results
 
-The combination of PyTorch and YOLOv7 proved to be highly effective, providing fast and accurate car detection in various scenarios. The model exhibited strong performance, balancing inclusiveness and confidence, improving precision with increasing confidence, and demonstrating the trade-off between recall and precision. These results highlight the capabilities of the YOLOv7 model in accurately detecting cars.
+The combination of PyTorch and YOLOv7 proved to be highly effective, providing fast and accurate car detection in various scenarios. The model exhibited strong performance, balancing inclusiveness and confidence, improving precision with increasing confidence, and demonstrating the trade-off between recall and precision. These results highlight the capabilities of the YOLOv7 model in accurately detecting cars. All the results can be found in Yolov7/runs/detect folder.
 
 ## Instructions
 
@@ -23,4 +23,3 @@ To run the code in this repository, please follow these steps:
 3. Modify the configuration files as per your requirements.
 4. Feel free to experiment with different parameters and techniques to further enhance the model's performance.
 
-Please refer to the project documentation and code comments for more detailed information.
